@@ -13,6 +13,9 @@ public class Recipe {
    String name;
      String image;
     String ingredients;
+    String instructions;
+    String servings;
+    String totalTime;
 
     public String getName() {
         return name;
@@ -62,9 +65,7 @@ public class Recipe {
         this.totalTime = totalTime;
     }
 
-    String instructions;
-    String servings;
-    String totalTime;
+
 
     public int getId() {
         return id;
